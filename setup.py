@@ -12,7 +12,8 @@ requirements = ['pandas>=1.1.0', 'numpy>=1.19.0', ]
 test_requirements = ['pytest>=3', ]
 
 setup(
-    author="Abubakar Alaro",
+    author="10 Academy",
+    email="train@10academy.org",
     python_requires='>=3.6',
     classifiers=[
         'Development Status :: 2 - Pre-Alpha',
@@ -23,7 +24,7 @@ setup(
         'Programming Language :: Python :: 3.7',
         'Programming Language :: Python :: 3.8',
     ],
-    description="A bunch of functions to enable and make FE easy when building Machine Learning Models",
+    description="A Repository structure for all your project",
     install_requires=requirements,
     long_description=readme,
     include_package_data=True,
