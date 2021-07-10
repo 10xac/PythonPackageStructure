@@ -1,8 +1,8 @@
 import unittest
 import sys, os
-sys.path.append(os.path.abspath(os.path.join('../scripts')))
+sys.path.append(os.path.abspath(os.path.join('..')))
 
-from script import find_average, count_occurence
+from scripts.script import find_average, count_occurence
 
 
 class TestCases(unittest.TestCase):
